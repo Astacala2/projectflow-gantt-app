@@ -1,0 +1,32 @@
+# Dependency
+node_modules/
+
+# Artefak build
+dist/
+dist-ssr/
+*.local
+
+# File lingkungan rahasia
+.env
+.env.*
+!.env.example
+
+# Editor & sistem
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Folder sesi chat Freebuff (jangan diunggah ke repository)
+.freebuff/
+chat-messages.json
+
+# Sementara
+*.tmp
+*.bak
